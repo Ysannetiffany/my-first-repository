@@ -1,0 +1,24 @@
+.bigger_text{
+    font-size:xx-large
+    }
+    #centered_text {
+    text-align: center;
+    }
+    .bolder_text {
+    font-weight: bolder;
+    }
+    #different_font {
+    font-family: Verdana, sans-serif;
+    }
+    .orange {
+    color: orange;
+    }
+    
+    .styledFont {
+    font-family: cursive, script, serif;
+    }
+    #styledImage {
+    border-style: dotted dashed solid double;
+    border-width: 10px 12px 15px 25px;
+    border-color: red green blue orange;
+    }
