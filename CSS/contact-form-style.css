@@ -1,0 +1,15 @@
+header {
+    background-color: #333;
+}
+h1 {
+    color: #eee;
+    font-size: 28px;
+    text-align: center;
+}
+body {
+    background-color:#efeee7 ;
+}
+#name, #email, #message, #subject {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
