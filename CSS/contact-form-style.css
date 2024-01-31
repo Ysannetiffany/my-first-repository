@@ -1,0 +1,7 @@
+body {
+    background-color:#efeee7 ;
+}
+#name, #email, #message, #subject {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
