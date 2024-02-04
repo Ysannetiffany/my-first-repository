@@ -16,20 +16,21 @@
         <input type="hidden" name="redirect" value="https://ysannetiffany.github.io/my-first-repository/">
 
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
+        <input type="text" id="name" name="name" placeholder="John Doe" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
+        <input type="email" id="email" name="email" placeholder="johndoe@yahoo.com" required><br><br>
 
         <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject"><br><br>
+        <input type="text" id="subject" name="subject" placeholder="Let's collaborate!"><br><br>
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea><br><br>
+        <textarea id="message" name="message" placeholder="Hello!" required></textarea><br><br>
 
         <div class="h-captcha" data-captcha="true"></div>
 
         <input type="submit" value="Send">
+        <input type="reset" value="Reset">
     </form>
     
     <script src="https://web3forms.com/client/script.js" async defer></script>
