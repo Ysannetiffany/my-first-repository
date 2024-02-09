@@ -23,21 +23,24 @@ Allows you to appky specific styles only when website is viewed on specific scre
     body {background-color: blanchedalmond;}
 
 }
-
-nav {
+header {
     background-color:grey;
-    color:white;
-    padding: 20px;
-    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
 }
 nav a {
-    color: rgb(119, 195, 231);
-    list-style-type:none;
-    text-align: center;
-}
+    font-size: 25px;
+    color:  rgb(119, 195, 231);
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 10px;
+    margin-top: 30px;
+    display: inline-block;
+}   
 .banner {
     background-size: cover;
-    background-image: url("../background-image.jpeg");
+    background-image: url("../new-background.jpeg");
     position: relative;
     height: 300px;
 }
@@ -47,17 +50,18 @@ nav a {
     right: 20px;
     font-size: 24px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:  rgb(119, 195, 231);
     padding: 10px;
 }
 .section {
     padding: 20px;
+    margin: 10px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
   }
   h2 {
-  border-right: 3px blue;
   padding-right: 20px;
+  color:rgb(119, 195, 231);
   }
   .work-sample img {
     width: 200px;
@@ -68,9 +72,7 @@ nav a {
   }
   .contact-links {
     text-align: center;
-  }
-  .contact-links a {
-    margin: 0 10px;
+    margin-top: 45px;
   } 
 body {
     margin: 0;
@@ -81,6 +83,7 @@ body {
 }
 .center {
      display: block;
+     margin-top: 20px;
      margin-left: auto;
      margin-right: auto;
      width: 50%;
