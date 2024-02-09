@@ -79,6 +79,14 @@ body {
     color: black;
     font-size: 30px;
 }
+.center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     height:400px;
+     width:400px;
+}
 a:link {
     color: rgb(119, 195, 231);
 }
