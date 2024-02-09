@@ -1,43 +1,81 @@
-nav ul {
-    list-style-type:none;
-    margin: 10px;
-    padding:10px;
-    font-size: large;
-    overflow: hidden;
-    background-color:gray;
-    text-align: center;
+/*Media screen tag is used to apply different styles for different media/devices. 
+Allows you to appky specific styles only when website is viewed on specific screen devices*/
+/*Mobile devices*/
+@media screen and (min-width:320px) and (max-width:480px){
+
 }
-li {
-    float: none;
-    display: inline;
+/*iPads and Tablets*/
+@media screen and (min-width:481px) and (max-width:768px) {
+
 }
-li a {
+/*Laptops and small screens*/
+@media screen and (min-width:769px) and (max-width:1024px){
+
+}
+/*Large screens and Desktops*/
+@media screen and (min-width:1025x) and (max-width:1200px){
+
+}
+/*TV and Extra Large Screen*/
+@media screen and (min-width:1201px) and (orientation:landscape){
+
+}
+
+nav {
+    background-color:grey;
     color:white;
-    text-decoration: none;
-    padding: 16px;
+    padding: 20px;
+    font-size: 20px;
 }
-.container {
-    margin: auto;
-    width: min-content;
-}
-body {
-    background-color:whitesmoke;
-}
-header {
+nav a {
+    color: rgb(119, 195, 231);
+    list-style-type:none;
     text-align: center;
-    font-size: 50px;
 }
-h2 {
-    color:red;
-    font-size: 40px;
+.banner {
+    background-size: cover;
+    background-image: url("../background-image.jpeg");
+    position: relative;
+    height: 300px;
 }
-#Basics, #Prof-goal, #Random-fact, #Message {
-    padding: 0;
+.subtitle {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.section {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  h2 {
+  border-right: 3px blue;
+  padding-right: 20px;
+  }
+  .work-sample img {
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .work-sample img:hover {
+    transform: scale(1.1);
+  }
+  .contact-links {
+    text-align: center;
+  }
+  .contact-links a {
+    margin: 0 10px;
+  } 
+body {
     margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    color: black;
 }
+
 a:link {
-    color: red;
-}
-a:visited {
-    color: blue;
+    color: rgb(119, 195, 231);
 }
