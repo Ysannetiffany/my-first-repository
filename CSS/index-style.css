@@ -1,23 +1,26 @@
 /*Media screen tag is used to apply different styles for different media/devices. 
 Allows you to appky specific styles only when website is viewed on specific screen devices*/
 /*Mobile devices*/
-@media screen and (min-width:320px) and (max-width:480px){
-
+@media screen and (min-width:320px) and (max-width:480px) {
+    body {background-color:antiquewhite;}
 }
 /*iPads and Tablets*/
 @media screen and (min-width:481px) and (max-width:768px) {
-
+    body {background-color: azure;}
 }
 /*Laptops and small screens*/
-@media screen and (min-width:769px) and (max-width:1024px){
+@media screen and (min-width:769px) and (max-width:1024px) {
+    body {background-color: beige;}
 
 }
 /*Large screens and Desktops*/
 @media screen and (min-width:1025x) and (max-width:1200px){
+    body {background-color: bisque;}
 
 }
 /*TV and Extra Large Screen*/
 @media screen and (min-width:1201px) and (orientation:landscape){
+    body {background-color: blanchedalmond;}
 
 }
 
