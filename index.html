@@ -3,46 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!--Meta tag ensures web pages are mobile friendly and responsive, content follows screen width of the device and adjusts as needed-->
     <link rel="stylesheet" href="./CSS/index-style.css">
-    <title>Who Is Ysanne?</title>
+    <title>Ysanne's Portfolio</title>
     </head>
     <body>
-
-        <header>
-            My Biography
-        </header>
-
-        <section>
             <nav>
-                <ul>
-                    <li><a href="#Basics">Basics</a></li>
-                    <li><a href="#Prof-goal">Professional Goal</a></li>
-                    <li><a href="#Random-fact">Random Fact</a></li>
-                    <li><a href="#Message">Contact</a></li><br><br>
-                </ul>
+                <div>Welcome to Ysanne's Page</div>
+                <div>
+                    <a href="#basics">About Me</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact">Contact Me</a>
+                    <a href="./Ysanne Williams Resume (1) PDF.pdf">Resume</a><br><br>
+             </div>
             </nav>
-        </section>
 
-        <div class="container">
-            <section id="Basics">
-                <h2> All the Basics</h2> 
-                <img src="./IMG_2223.JPG" alt="A beautiful picture of Ysanne Williams" height="600" width="500"> 
-                <p>Hello, I am Ysanne Williams. Born and raised in Jamaica, I moved to Canada a little over four years ago to pursue higher education. I delight in being around people I love and making meaningful memories. I am also a dedicated, life-long learner, which is what led me to applying for the DTTP Web development cohort. Click here to see <a href="./html-bio-with-css.html" target="_blank" title="Student Bio">my updated Bio</a></p>
-            </section>
+            <div class="banner">
+                <div class="subtitle">Rookie Web Developer!</div>
+            </div>
 
-            <section id="Prof-goal">
-                <h2> Professional Goal</h2>
-                <p>My long-term aspiration is to become a Medical Doctor. I aspire to be excellent at whichever field I choose, and not just great at a bunch of little things. <br> I also hope to become extremely skilled at Web Development and learn the ins and outs of coding! I might even create a website for myself to advertise my resume.</p>
-            </section>
-
-               <section id="Random-fact">
-                <h2> Random Fact</h2>
-                <p>I <b>LOVE</b> CATS! I've had several cats during my childhood up until I moved to Canada. I am hoping my next landlord will be pet friendly so I can get a cat, or two!</p>
-               </section>
-               
-                <section id="Message">
-                    <h2>Send Me a Message!</h2><a href="./Contactus.html">Contact Ysanne</a>
-                </section>
+        <div id="basics" class="section">
+                <h2> About Me</h2> 
+                <p>I am Ysanne Williams. Born and raised in Jamaica, I moved to Canada a little over four years ago to pursue higher education. I delight in being around people I love and making meaningful memories. I am also a dedicated, life-long learner, which is what led me to applying for the DTTP Web development cohort. 
+                    My long-term aspiration is to become a Medical Doctor. I aspire to be excellent at whichever field I choose, and not just great at a bunch of little things.</p>
         </div>
+
+            <div id="work" class="section">
+                <h2>Work</h2>
+                <div class="work-sample">
+                    <a href="./Sample-work.html"><img src="./sunflower.jpeg" alt="Work 1"></a>
+                    <a href="./Sample-work.html"><img src="./sunflower.jpeg" alt="Work 1"></a>
+                    <a href="./Sample-work.html"><img src="./sunflower.jpeg" alt="Work 1"></a>
+                </div>
+            </div>
+
+                <div id="contact" class="section">
+                    <h2>Contact Me</h2>
+                    <div class="contact-links">
+                    <a href="./Contactus.html">Send me an Email</a>
+                    <a href="https://www.linkedin.com/in/ysanne-williams/">LinkedIn</a>
+                    <a href="./Ysanne Williams Resume (1) PDF.pdf" target="_blank">Browse my Resume</a>
+                    </div>
+                </div>
     </body>
 </html>
