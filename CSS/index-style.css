@@ -28,7 +28,7 @@ nav {
     background-color:grey;
     color:white;
     padding: 20px;
-    font-size: 20px;
+    font-size: 40px;
 }
 nav a {
     color: rgb(119, 195, 231);
@@ -77,8 +77,8 @@ body {
     padding: 0;
     background-color:whitesmoke;
     color: black;
+    font-size: 30px;
 }
-
 a:link {
     color: rgb(119, 195, 231);
 }
