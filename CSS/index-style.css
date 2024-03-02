@@ -64,7 +64,7 @@ nav a {
   color:rgb(119, 195, 231);
   }
   .work-sample img {
-    width: 200px;
+    width: 500px;
     transition: transform 0.3s ease-in-out;
   }
   .work-sample img:hover {
