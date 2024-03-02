@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <!--Meta tag ensures web pages are mobile friendly and responsive, content follows screen width of the device and adjusts as needed-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/index-style.css">
     <title>Ysanne's Portfolio</title>
     </head>
     <body>
         <header>
-            <h4 style="color: whitesmoke;">Welcome to Ysanne's Page!</h4>
-            <nav>
-                    <a href="#basics">About Me</a>
-                    <a href="#work">Work</a>
-                    <a href="#contact">Contact Me</a>
-                    <a href="./Ysanne Williams Resume (1) PDF.pdf">Resume</a>
-            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./Ysanne Williams Resume (1) PDF.pdf">Resume!</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#basics">About Me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
             <div class="banner">
                 <div class="subtitle">Web Developer!</div>
@@ -23,22 +38,22 @@
             <section>
                 <img src="./IMG_2223.JPG" class="center" alt="Image of Ysanne">
             </section>
-        <div id="basics" class="section">
+        <div id="basics" class="container">
                 <h2> About Me</h2> 
                 <p>I am Ysanne Williams. Born and raised in Jamaica, I moved to Canada a little over four years ago to pursue higher education. I delight in being around people I love and making meaningful memories. I am also a dedicated, life-long learner, which is what led me to applying for the DTTP Web development cohort. 
                     My long-term aspiration is to become a Medical Doctor. I aspire to be excellent at whichever field I choose, and not just great at a bunch of little things.</p>
         </div>
 
-            <div id="work" class="section">
+            <div id="work" class="container">
                 <h2>Work</h2>
                 <div class="work-sample">
                     <a href="./code-quiz-demo/index.html"><img src="./code-quiz-demo/04-web-apis-homework-demo.gif" alt="Work 1"></a>
                     <a href="./task-board-demo/index.html"><img src="./task-board-demo/05-third-party-apis-homework-demo.gif" alt="Work 2"></a>
-                    <a href="./password-gen-demo/index.html"><img src="./Password generator.png" alt="Work 1"></a>
+                    <a href="./password-gen-demo/index.html"><img src="./Password generator.png" alt="Work 3"></a>
                 </div>
             </div>
 
-                <div id="contact" class="section">
+                <div id="contact" class="container">
                     <h2>Contact Me</h2>
                     <div class="contact-links">
                     <a href="../my-first-repository/Contact-us assignment/Contactus.html">Send me an Email</a>
@@ -46,5 +61,10 @@
                     <a href="./Ysanne Williams Resume (1) PDF.pdf" target="_blank">Browse my Resume</a>
                     </div>
                 </div>
-    </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+</body>
 </html>
